@@ -1,0 +1,223 @@
+--BIG Thanks to Ex_Zviye for this
+--Modified/Created by laurita425
+
+--If you have any Questions or Suggestions message me on Discord ( laurita425#0431 )
+
+--Kill
+function kill(msg)
+    local dead = string.sub(msg, 11)
+while death == true do
+wait(0.0000000001)
+game:GetService'Players':Chat(("kill "..dead))
+end
+end
+
+
+game.Players.LocalPlayer.Chatted:connect(function(msg)
+
+if string.sub(msg, 1, 9) == ";spamkill" then
+death = true
+kill(msg)
+end
+
+if string.sub(msg, 1, 5) == ";stop" then
+death = false
+end
+end)
+--Explode
+function explode(msg)
+    local dead = string.sub(msg, 11)
+while death == true do
+wait(0.0000000001)
+game:GetService'Players':Chat(("explode "..dead))
+end
+end
+
+
+game.Players.LocalPlayer.Chatted:connect(function(msg)
+
+if string.sub(msg, 1, 12) == ";spamexplode" then
+death = true
+explode(msg)
+end
+
+if string.sub(msg, 1, 5) == ";stop" then
+death = false
+end
+end)
+--Reload
+function reload(msg)
+    local dead = string.sub(msg, 11)
+while death == true do
+wait(0.0000000001)
+game:GetService'Players':Chat(("reload "..dead))
+end
+end
+
+
+game.Players.LocalPlayer.Chatted:connect(function(msg)
+
+if string.sub(msg, 1, 11) == ";spamreload" then
+death = true
+reload(msg)
+end
+
+if string.sub(msg, 1, 5) == ";stop" then
+death = false
+end
+end)
+--Blind
+function blind(msg)
+    local dead = string.sub(msg, 11)
+while death == true do
+wait(0.0000000001)
+game:GetService'Players':Chat(("blind "..dead))
+end
+end
+
+
+game.Players.LocalPlayer.Chatted:connect(function(msg)
+
+if string.sub(msg, 1, 10) == ";spamblind" then
+death = true
+blind(msg)
+end
+
+if string.sub(msg, 1, 5) == ";stop" then
+death = false
+end
+end)
+--Jail
+function jail(msg)
+    local dead = string.sub(msg, 11)
+while death == true do
+wait(0.0000000001)
+game:GetService'Players':Chat(("jail "..dead))
+end
+end
+
+
+game.Players.LocalPlayer.Chatted:connect(function(msg)
+
+if string.sub(msg, 1, 9) == ";spamjail" then
+death = true
+jail(msg)
+end
+
+if string.sub(msg, 1, 5) == ";stop" then
+death = false
+end
+end)
+--Punish
+function punish(msg)
+    local dead = string.sub(msg, 11)
+while death == true do
+wait(0.0000000001)
+game:GetService'Players':Chat(("punish "..dead))
+end
+end
+
+
+game.Players.LocalPlayer.Chatted:connect(function(msg)
+
+if string.sub(msg, 1, 11) == ";spampunish" then
+death = true
+punish(msg)
+end
+
+if string.sub(msg, 1, 5) == ";stop" then
+death = false
+end
+end)
+--Skydive
+function skydive(msg)
+    local dead = string.sub(msg, 11)
+while death == true do
+wait(0.0000000001)
+game:GetService'Players':Chat(("skydive "..dead))
+end
+end
+
+
+game.Players.LocalPlayer.Chatted:connect(function(msg)
+
+if string.sub(msg, 1, 12) == ";spamskydive" then
+death = true
+skydive(msg)
+end
+
+if string.sub(msg, 1, 5) == ";stop" then
+death = false
+end
+end)
+--Successfully Executed & Commands
+bc = BrickColor.new("Lime green")
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+	Text = "Kohls Spam Commands Successfully Executed!";
+	Font = Enum.Font.Arcade;
+	Color = bc.Color;
+	FontSize = Enum.FontSize.Size96;
+	})
+bc = BrickColor.new("Slime green")
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+	Text = "Commands Currently Available:";
+	Font = Enum.Font.Arcade;
+	Color = bc.Color;
+	FontSize = Enum.FontSize.Size96;
+	})
+bc = BrickColor.new("Lime green")
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+	Text = ";stop";
+	Font = Enum.Font.Arcade;
+	Color = bc.Color;
+	FontSize = Enum.FontSize.Size96;
+	})
+bc = BrickColor.new("Lime green")
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+	Text = ";spamkill";
+	Font = Enum.Font.Arcade;
+	Color = bc.Color;
+	FontSize = Enum.FontSize.Size96;
+	})
+bc = BrickColor.new("Lime green")
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+	Text = ";spamexplode";
+	Font = Enum.Font.Arcade;
+	Color = bc.Color;
+	FontSize = Enum.FontSize.Size96;
+	})
+bc = BrickColor.new("Lime green")
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+	Text = ";spamreload";
+	Font = Enum.Font.Arcade;
+	Color = bc.Color;
+	FontSize = Enum.FontSize.Size96;
+	})
+bc = BrickColor.new("Lime green")
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+	Text = ";spamblind";
+	Font = Enum.Font.Arcade;
+	Color = bc.Color;
+	FontSize = Enum.FontSize.Size96;
+	})
+bc = BrickColor.new("Lime green")
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+	Text = ";spamjail";
+	Font = Enum.Font.Arcade;
+	Color = bc.Color;
+	FontSize = Enum.FontSize.Size96;
+	})
+bc = BrickColor.new("Lime green")
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+	Text = ";spampunish";
+	Font = Enum.Font.Arcade;
+	Color = bc.Color;
+	FontSize = Enum.FontSize.Size96;
+	})
+bc = BrickColor.new("Lime green")
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+	Text = ";spamskydive";
+	Font = Enum.Font.Arcade;
+	Color = bc.Color;
+	FontSize = Enum.FontSize.Size96;
+	})
